@@ -1,0 +1,34 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "build:live": "nodemon --exec ts-node -- ./Server.ts",
+    "start": "npm run build:live"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express-jwt": "0.0.33",
+    "@types/morgan": "^1.7.32",
+    "@types/node": "^6.0.52",
+    "@types/q": "0.0.32",
+    "@types/winston": "0.0.32",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "errno": "^0.1.4",
+    "express": "^4.14.0",
+    "express-jwt": "^5.1.0",
+    "fs-extra": "^1.0.0",
+    "helmet": "^3.1.0",
+    "mongoose": "^4.7.4",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.11.0",
+    "q": "^1.4.1",
+    "ts-node": "^1.7.2",
+    "typescript": "^2.1.4",
+    "typings": "^2.1.0",
+    "winston": "^2.3.0"
+  }
+}
